@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "STM32F030R8 Debug (ST-Link)",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "stlink",
+
+            "cwd": "${workspaceFolder}",
+
+            "executable": "${workspaceFolder}/Debug/keyer_030.elf",
+
+            "device": "STM32F030R8",
+            "interface": "swd",
+
+            "runToEntryPoint": "main",
+
+            "svdFile": "${workspaceFolder}/STM32F0_svd.svd",
+
+            "preLaunchTask": "Build STM32 Debug",
+
+            "showDevDebugOutput": false
+        }
+    ]
+}

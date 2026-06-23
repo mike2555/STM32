@@ -1,0 +1,20 @@
+{
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    
+    "files.associations": {
+        "*.h": "c",
+        "*.c": "c"
+    },
+
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+
+    "C_Cpp.intelliSenseEngine": "default",
+
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "c": true
+    }
+}
